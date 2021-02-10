@@ -20,5 +20,6 @@ steps:
     location: 'Australia East'
     templateLocation: 'Linked artifact'
     csmFile: 'nagak13/Azure/azuredeploy.json'
+    overrideParameters: '-projectName TestProj -linkedTemplateUri https://raw.githubusercontent.com/nagak13/Azure/main/azuredeploy.json'   
     deploymentMode: 'Incremental'
     deploymentName: 'testcicdarm'
